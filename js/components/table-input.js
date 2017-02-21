@@ -2,6 +2,8 @@
 
     var tableInput = React.createClass({
 
+        displayName: 'TableInput',
+
         getInputType: function(contentType) {
 
             switch(contentType.toUpperCase())

@@ -2,6 +2,8 @@
 
     var hidden = React.createClass({
 
+        displayName: 'Hidden',
+
         render: function () {
 
             manywho.log.info('Rendering Hidden: ' + this.props.id);

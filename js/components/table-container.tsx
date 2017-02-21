@@ -29,6 +29,8 @@ declare var manywho: any;
 
     const table = React.createClass({
 
+        displayName: 'TableContainer',
+
         mixins: [manywho.component.mixins.collapse],
 
         onHeaderClick: function (e) {

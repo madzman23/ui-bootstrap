@@ -5,6 +5,7 @@ declare var manywho: any;
 
 class Tour extends React.Component<ITourProps, ITourState> {
 
+    displayName: 'Tour';
     domWatcher: number;
 
     constructor(props) {

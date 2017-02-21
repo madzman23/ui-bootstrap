@@ -2,6 +2,8 @@
 
     var history = React.createClass({
 
+        displayName: 'History',
+
         onClick: function (e) {
 
             manywho.model.popHistory(e.currentTarget.id, this.props.flowKey);

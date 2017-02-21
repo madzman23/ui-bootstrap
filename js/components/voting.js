@@ -2,6 +2,8 @@
 
     var voting = React.createClass({
 
+        displayName: 'Vorting',
+
         render: function () {
 
             var isVisible = manywho.utils.isEqual(manywho.model.getInvokeType(this.props.flowKey), 'waiting_on_votes', true);

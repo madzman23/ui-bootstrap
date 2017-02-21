@@ -2,6 +2,8 @@
 
     var feedInput = React.createClass({
 
+        displayName: 'FeedInput',
+
         send: function() {
 
             var deferred = null;
@@ -107,6 +109,8 @@
     });
 
     var feed = React.createClass({
+
+        displayName: 'Feed',
 
         onToggleFollow: function(e) {
 

@@ -10,6 +10,8 @@ interface IInputNumberState {
 
 class InputNumber extends React.Component<IInputProps, IInputNumberState> {
 
+    displayName: 'InputNumber';
+
     constructor(props: IInputProps) {
         super(props);
 

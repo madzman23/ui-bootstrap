@@ -6,6 +6,8 @@ declare var manywho: any;
 
     const main = React.createClass({
 
+        displayName: 'Main',
+
         mixins: [manywho.component.mixins.enterKeyHandler],
 
         componentDidMount: function () {

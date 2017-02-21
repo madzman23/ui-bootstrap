@@ -2,6 +2,8 @@
 
     var modal = React.createClass({
 
+        displayName: 'Modal',
+
         mixins: [manywho.component.mixins.enterKeyHandler],
 
         renderModal: function() {

@@ -2,6 +2,8 @@
 
     var notifications = React.createClass({
 
+        displayName: 'Notifications',
+
         render: function () {
 
             var models = manywho.model.getNotifications(this.props.flowKey, this.props.position);
@@ -21,6 +23,8 @@
     manywho.component.register("notifications", notifications);
 
     var notification = React.createClass({
+
+        displayName: 'Notification',
 
         dismiss: function() {
 

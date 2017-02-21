@@ -17,6 +17,8 @@
 
     var tableSmall = React.createClass({
 
+        displayName: 'TableSmall',
+
         onOutcomeClick: function(e, outcome) {
             var objectDataId = e.target.parentElement.getAttribute('data-item');
             this.props.onOutcome(objectDataId, outcome.id);

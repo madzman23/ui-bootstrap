@@ -2,6 +2,8 @@
 
     var returnToParent = React.createClass({
 
+        displayName: 'ReturnToParent',
+
         onClick: function() {
 
             manywho.engine.returnToParent(this.props.flowKey, this.props.parentStateId);

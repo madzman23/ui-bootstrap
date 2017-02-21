@@ -7,6 +7,8 @@ declare var ReactCollapse: any;
 
     const horizontal = React.createClass({
 
+        displayName: 'Horizontal',
+
         render: function () {
             const children = manywho.model.getChildren(this.props.id, this.props.flowKey);
 

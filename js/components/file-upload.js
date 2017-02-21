@@ -2,6 +2,8 @@
 
     var fileUpload = React.createClass({
 
+        displayName: 'FileUpload',
+
         getDefaultProps: function() {
 
             return {

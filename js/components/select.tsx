@@ -12,6 +12,7 @@ interface IDropDownState {
 
 class DropDown extends React.Component<IItemsComponentProps, IDropDownState> {
 
+    displayName: 'Select';
     debouncedOnSearch = null;
 
     constructor(props) {

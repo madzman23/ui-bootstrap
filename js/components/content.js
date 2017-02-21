@@ -1,7 +1,8 @@
 (function (manywho, window) {
 
     var content = React.createClass({
-
+        
+        displayName: 'Content',
         changeInterval: null,
         skipSetContent: false,
         editor: null,

@@ -5,6 +5,8 @@ declare var manywho: any;
 
 class Textarea extends React.Component<IComponentProps, any> {
 
+    displayName: 'Textarea';
+
     constructor(props) {
         super(props);
 

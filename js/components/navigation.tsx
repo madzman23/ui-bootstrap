@@ -6,6 +6,8 @@ declare var manywho: any;
 
     const navigation = React.createClass({
 
+        displayName: 'Navigation',
+
         getItem(items: any, id: string) {
             for (const itemId in items) {
                 if (itemId === id)

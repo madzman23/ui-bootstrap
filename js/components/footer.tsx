@@ -5,6 +5,9 @@ declare var manywho: any;
 (function (manywho) {
 
     const footer = React.createClass({
+
+        displayName: 'Footer',
+
         render: function () {
             if (this.props.children) {
                 manywho.log.info('Rendering Footer');

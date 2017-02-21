@@ -33,6 +33,8 @@ declare var manywho: any;
 
     const tableLarge = React.createClass({
 
+        displayName: 'TableLarge',
+
         renderHeaderRow: function (displayColumns) {
 
             let columns = [];

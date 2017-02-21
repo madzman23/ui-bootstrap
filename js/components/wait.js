@@ -14,6 +14,8 @@
 
     var wait = React.createClass({
 
+        displayName: 'Wait',
+
         componentDidUpdate: function() {
 
             if (this.refs.wait) {

@@ -72,6 +72,8 @@
 
     var radio = React.createClass({
 
+        displayName: 'Radio',
+
         handleChange: function(e) {
 
             var model = manywho.model.getComponent(this.props.id, this.props.flowKey);

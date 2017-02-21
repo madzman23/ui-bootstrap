@@ -9,6 +9,8 @@ interface IItemsHeaderState {
 
 class ItemsHeader extends React.Component<IItemsHeaderProps, IItemsHeaderState> {
 
+    displayName: 'ItemsHeader';
+
     constructor(props: IItemsHeaderProps) {
         super(props);
 

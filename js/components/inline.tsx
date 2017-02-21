@@ -6,6 +6,8 @@ declare var manywho: any;
 
     const inline = React.createClass({
 
+        displayName: 'Inline',
+
         render: function () {
             const children = manywho.model.getChildren(this.props.id, this.props.flowKey);
 

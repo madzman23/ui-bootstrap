@@ -6,6 +6,8 @@ declare var manywho: any;
 
     const status = React.createClass({
 
+        displayName: 'Status',
+
         render: function () {
             const isVisible: boolean = manywho.utils.isEqual(manywho.model.getInvokeType(this.props.flowKey), 'wait', true)
                 || manywho.utils.isEqual(manywho.model.getInvokeType(this.props.flowKey), 'status', true);

@@ -7,6 +7,8 @@ declare var manywho: any;
 
     const flip = React.createClass({
 
+        displayName: 'Flip',
+
         toggleFlip: function () {
             this.setState({ isFlipped: !this.state.isFlipped });
         },

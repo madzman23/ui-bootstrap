@@ -5,6 +5,8 @@ declare var manywho: any;
 
 class ItemsContainer extends React.Component<IComponentProps, any> {
 
+    displayName: 'ItemsContainer';
+
     constructor(props: IComponentProps) {
         super(props);
         this.state = { search: null, sortedBy: null, sortedIsAscending: null };

@@ -6,6 +6,8 @@ declare var manywho: any;
 
     const vertical = React.createClass({
 
+        displayName: 'Vertical',
+
         render: function () {
             const children = manywho.model.getChildren(this.props.id, this.props.flowKey);
 

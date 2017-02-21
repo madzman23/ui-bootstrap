@@ -2,6 +2,8 @@
 
     var image = React.createClass({
 
+        displayName: 'Image',
+
         render: function () {
 
             var classes = manywho.styling.getClasses(this.props.parentId, this.props.id, 'image', this.props.flowKey);

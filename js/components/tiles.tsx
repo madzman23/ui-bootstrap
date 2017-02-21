@@ -6,6 +6,8 @@ declare var ReactMotion: any;
 
 class Tiles extends React.Component<ITilesProps, any> {
 
+    displayName: 'Tiles';
+
     constructor(props: ITilesProps) {
         super(props);
 

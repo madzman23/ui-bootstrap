@@ -10,6 +10,8 @@ interface IInputBooleanState {
 
 class InputBoolean extends React.Component<IInputProps, IInputBooleanState> {
 
+    displayName: 'InputBoolean';
+
     constructor(props: IInputProps) {
         super(props);
 

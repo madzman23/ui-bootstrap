@@ -8,6 +8,8 @@ declare var ReactMotion: any;
 
     const container = React.createClass({
 
+        displayName: 'Container',
+
         isCollapsible: function (model) {
             if (model.attributes && model.attributes.isCollapsible != null)
                 return manywho.utils.isEqual(model.attributes.isCollapsible, 'true', true);

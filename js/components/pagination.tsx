@@ -6,6 +6,8 @@ declare var manywho: any;
 
     const pagination = React.createClass({
 
+        displayName: 'Pagination',
+
         render: function () {
             manywho.log.info('Rendering Pagination');
 

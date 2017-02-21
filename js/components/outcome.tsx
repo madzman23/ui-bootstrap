@@ -94,6 +94,8 @@ declare var manywho: any;
 
     let outcome = React.createClass({
 
+        displayName: 'Outcome',
+
         getContent: function (model, display: string) {
             if (display)
                 switch (display.toUpperCase()) {

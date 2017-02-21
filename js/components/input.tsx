@@ -10,6 +10,8 @@ interface IInputState {
 
 class Input extends React.Component<IComponentProps, IInputState> {
 
+    displayName: 'Input';
+
     constructor(props) {
         super(props);
 

@@ -8,6 +8,8 @@ interface IToggleState {
 
 class Toggle extends React.Component<IComponentProps, IToggleState> {
 
+    displayName: 'Toggle';
+
     constructor(props: IComponentProps) {
         super(props);
 

@@ -10,6 +10,8 @@ interface IInputDateTimeState {
 
 class InputDateTime extends React.Component<IInputProps, IInputDateTimeState> {
 
+    displayName: 'InputDateTime';
+
     constructor(props: IInputProps) {
         super(props);
 

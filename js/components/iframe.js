@@ -2,6 +2,8 @@
 
     var iframe = React.createClass({
 
+        displayName: 'IFrame',
+
         render: function () {
 
             manywho.log.info('Rendering iframe: ' + this.props.id);

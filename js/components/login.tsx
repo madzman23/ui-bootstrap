@@ -6,6 +6,8 @@ declare var manywho: any;
 
     const login = React.createClass({
 
+        displayName: 'Login',
+
         getInitialState: function () {
             return {
                 username: this.props.username || '',

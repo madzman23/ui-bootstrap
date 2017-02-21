@@ -6,6 +6,8 @@ declare var manywho: any;
 
     const presentation = React.createClass({
 
+        displayName: 'Presentation',
+
         replaceContent: function () {
             const node = ReactDOM.findDOMNode(this.refs.content);
 

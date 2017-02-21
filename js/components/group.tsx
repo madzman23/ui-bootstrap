@@ -30,6 +30,8 @@ declare var manywho: any;
 
     let group = React.createClass({
 
+        displayName: 'Group',
+
         componentDidMount: function () {
             if (!this.props.isDesignTime && this.refs.group.children[0].children && this.refs.group.children[0].children.length > 0) {
                 clearActivePanes(this.refs.group);
